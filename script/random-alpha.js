@@ -7,6 +7,10 @@ function getRandomAlphabet() {
 
     const alphabet = alphabets[index];
     return alphabet;
-
     
-     }
+}
+     
+function setBackGroundColorById(elementId) {
+    const element = document.getElementById(elementId);
+    element.classList.add('bg-[#FFA500]');
+}

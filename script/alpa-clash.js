@@ -13,7 +13,5 @@ function play() {
     currantAlphabet.innerText = alphabet;
 
 
-    const keyboard = document.getElementById('keyboard');
-    keyboard.classList.add('bg-[#FFA500]');
-    
+    setBackGroundColorById(alphabet);
 }
